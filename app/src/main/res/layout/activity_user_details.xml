@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66E5FB"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="#66E5FB"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/ivProfileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#612196F3"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:text="Select Image" />
+
+
+
+
+
+        <!-- User Details Inputs -->
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"  />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"  />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:inputType="number"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext" />
+
+        <!-- Gender Selection -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#786E6E"
+            android:orientation="horizontal"
+
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+            <RadioButton
+                android:id="@+id/rbOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etFatherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father's Name"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext" />
+
+        <EditText
+            android:id="@+id/etMotherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mother's Name"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext" />
+
+        <EditText
+            android:id="@+id/etSpouseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Spouse Name (if applicable)"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext" />
+
+        <!-- Save Details Button -->
+        <Button
+            android:id="@+id/btnSaveDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Details"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#2196F3"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+             />
+
+        <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#2196F3"
+            android:textSize="16dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</ScrollView>

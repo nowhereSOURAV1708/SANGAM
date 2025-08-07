@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66E5FB"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#66E5FB"
+        android:gravity="center">
+
+        <!-- Profile Image -->
+
+
+
+
+        <!-- User Details Inputs -->
+        <EditText
+            android:id="@+id/etUserName"
+            android:hint="Enter name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter age"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"  />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter address"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"  />
+
+        <EditText
+            android:id="@+id/etGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter gender"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"  />
+
+        <EditText
+            android:id="@+id/etGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter group name"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"  />
+
+        <EditText
+            android:id="@+id/etGroupAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter group admin name"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"  />
+
+        <EditText
+            android:id="@+id/etMemberNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter member names (comma separated)"
+            android:textColorHint="#E2131313"
+            android:paddingBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"  />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:padding="12dp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search by Image"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

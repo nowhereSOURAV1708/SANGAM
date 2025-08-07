@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#66E5FB"
+    >
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Namaste, User! 🙏🏻"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnCreateGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Group"
+        android:textSize="18sp"
+        android:backgroundTint="#2196F3"/>
+
+    <Button
+        android:id="@+id/btngotoGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to Group"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FDFBEE"/>
+    <Button
+        android:id="@+id/btnJoinGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join Group"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FDFBEE"/>
+</LinearLayout>
