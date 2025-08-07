@@ -85,7 +85,7 @@
         </activity> <!-- Google Maps API Key (Move to a safer location!) -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCK2Wh2u_iRaee6v4rKNUjS6QFVzUYI0PM" />
+            android:value="" />
     </application>
 
 </manifest>
